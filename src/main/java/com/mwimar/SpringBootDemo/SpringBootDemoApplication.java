@@ -12,6 +12,9 @@ public class SpringBootDemoApplication {
 
 		Alien obj = context.getBean(Alien.class);
 		obj.code();
+
+		Alien obj1 = context.getBean(Alien.class);
+		obj1.code();
 	}
 
 }
