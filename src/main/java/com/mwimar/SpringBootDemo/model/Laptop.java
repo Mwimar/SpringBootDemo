@@ -1,9 +1,10 @@
-package com.mwimar.SpringBootDemo;
+package com.mwimar.SpringBootDemo.model;
 
-import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
 @Component
+@Primary
 public class Laptop implements Computer {
 
     public void compile(){

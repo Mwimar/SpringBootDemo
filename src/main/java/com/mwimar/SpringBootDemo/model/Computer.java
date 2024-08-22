@@ -1,4 +1,4 @@
-package com.mwimar.SpringBootDemo;
+package com.mwimar.SpringBootDemo.model;
 
 public interface Computer {
     void compile();
