@@ -2,8 +2,9 @@ package com.mwimar.SpringBootDemo;
 
 import com.mwimar.SpringBootDemo.model.Laptop;
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Repository;
 
-@Component
+@Repository
 public class LaptopRepository {
     public void save(Laptop lap){
         System.out.println("Saved in Database...");
