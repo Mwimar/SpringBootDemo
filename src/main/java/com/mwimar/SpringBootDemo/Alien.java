@@ -7,9 +7,9 @@ import org.springframework.stereotype.Component;
 public class Alien {
 
     @Autowired
-    Laptop laptop;
+    private Computer com;
 
     public void code(){
-        laptop.compile();
+//        laptop.compile();
     };
 }
