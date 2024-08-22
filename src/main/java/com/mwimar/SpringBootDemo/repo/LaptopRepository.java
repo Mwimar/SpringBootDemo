@@ -1,7 +1,6 @@
-package com.mwimar.SpringBootDemo;
+package com.mwimar.SpringBootDemo.repo;
 
 import com.mwimar.SpringBootDemo.model.Laptop;
-import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Repository;
 
 @Repository

@@ -1,6 +1,6 @@
 package com.mwimar.SpringBootDemo.service;
 
-import com.mwimar.SpringBootDemo.LaptopRepository;
+import com.mwimar.SpringBootDemo.repo.LaptopRepository;
 import com.mwimar.SpringBootDemo.model.Laptop;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
