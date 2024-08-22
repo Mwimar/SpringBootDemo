@@ -1,10 +1,21 @@
 package com.mwimar.SpringBootDemo;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
 @Component
 public class Alien {
+
+    @Value("21")
+    private int age;
+
+
+    private Computer com;
+
+
+
+
     public int getAge() {
         return age;
     }
@@ -22,10 +33,6 @@ public class Alien {
         this.com = com;
     }
 
-    private int age;
-
-
-    private Computer com;
 
     public void code(){
         com.compile();
