@@ -34,7 +34,9 @@ public class Alien {
     }
 
 
-    public void runCode( Computer com){};
+    public void runCode( Computer com){
+        com.getClass();
+    };
 
 
     public void code(){
