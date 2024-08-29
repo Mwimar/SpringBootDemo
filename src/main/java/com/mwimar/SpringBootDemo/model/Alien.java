@@ -34,7 +34,7 @@ public class Alien {
     }
 
 
-    public void runCode(){};
+    public void runCode( Computer com){};
 
 
     public void code(){
