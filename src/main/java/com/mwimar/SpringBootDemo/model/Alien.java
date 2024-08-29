@@ -34,6 +34,9 @@ public class Alien {
     }
 
 
+    public void runCode(){};
+
+
     public void code(){
         com.compile();
     };
